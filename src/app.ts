@@ -3,7 +3,7 @@ import { ITodoData } from './scripts/type'
 ;(function (doc) {
   const oInput: HTMLInputElement = document.querySelector('input')
   const oAddBtn: HTMLButtonElement = document.querySelector('button')
-  const oTodoList: HTMLElement = document.querySelector('.todo-item')
+  const oTodoList: HTMLElement = document.querySelector('.todo-wrapper')
 
   const todoData: ITodoData[] = [
     {
