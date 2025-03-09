@@ -3,3 +3,8 @@ export interface ITodoData {
   content: string
   completed: boolean
 }
+
+export interface ITodoListItem {
+  key: string
+  value: string
+}
